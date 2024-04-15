@@ -1,0 +1,30 @@
+/* dashboard.css */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  
+  .settings,
+  .dashboard-link {
+    display: flex; /* Make settings and dashboard-link a flex container */
+    align-items: center; /* Align items vertically in the center */
+    margin: 5px;
+  }
+  
+  .settings a,
+  .dashboard-link a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .settings a:hover,
+  .dashboard-link a:hover {
+    color: #555;
+  }
+  

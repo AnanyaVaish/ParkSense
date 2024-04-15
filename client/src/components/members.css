@@ -1,0 +1,48 @@
+.members-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .member-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 1200px; /* Adjust as needed */
+    width: 100%;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+  }
+  
+  .member-container:hover {
+    transform: scale(1.02); /* Scale up the container on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+    background-color: #fff; /* Change background color on hover */  }
+  
+  .member-container:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .image {
+    border-radius: 50%;
+    max-width: 120px; /* Maximum width */
+    max-height: 120px; /* Maximum height */
+    width: 100px; /* Allow the width to adjust proportionally */
+    height: 100px; /* Allow the height to adjust proportionally */
+    object-fit: cover;
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .about{
+    margin-left: 35px ;
+    margin-right: 35px;
+  }
+
+  .names{
+    margin-left: 30px ;
+    margin-right: 30px;
+  }

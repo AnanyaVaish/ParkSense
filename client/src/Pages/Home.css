@@ -1,0 +1,50 @@
+/* Home.css */
+
+/* Container for the entire content */
+.scrollable-container {
+  max-width: 100%; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #dedddd71;
+}
+
+/* Heading styles */
+.heading-belief-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.heading-container {
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 28px;
+  color: #333;
+}
+
+/* Image styles */
+.image-container {
+  margin-bottom: 20px;
+}
+
+.carpark-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Belief paragraph styles */
+.belief-container {
+  margin-bottom: 20px;
+}
+
+.belief {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Footer styles */
+/* Assuming Footer component takes care of its own styling */

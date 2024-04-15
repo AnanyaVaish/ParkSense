@@ -1,0 +1,16 @@
+/* Footer container */
+.copyright-bar {
+    background-color: #333; /* Background color */
+    color: rgb(255, 255, 255); /* Text color */
+    padding: 20px; /* Padding around the content */
+    text-align: center; /* Center align text */
+    font-size: 14px; /* Font size */
+  }
+  
+  /* Paragraph styling */
+  .copyright-bar p {
+    margin: 0; /* Remove default paragraph margins */
+    line-height: 1.6; /* Adjust line height */
+    color: white;
+  }
+  
